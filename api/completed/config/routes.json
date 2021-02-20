@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/completeds",
+      "handler": "completed.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/completeds/count",
+      "handler": "completed.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/completeds/:id",
+      "handler": "completed.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/completeds",
+      "handler": "completed.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/completeds/:id",
+      "handler": "completed.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/completeds/:id",
+      "handler": "completed.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

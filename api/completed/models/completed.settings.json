@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "completeds",
+  "info": {
+    "name": "Completed",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "drink": {
+      "type": "string"
+    },
+    "tableNum": {
+      "type": "string"
+    }
+  }
+}
